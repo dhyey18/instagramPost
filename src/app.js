@@ -10,7 +10,7 @@ app.use(cors());
 
 // routes
 app.use("/api/post", router);
-app.get("/", (req, res) => {
+app.get("/dhyey", (req, res) => {
   res.send("Welcome to the Instagram API!");
 });
 
