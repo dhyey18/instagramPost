@@ -10,5 +10,8 @@ app.use(cors());
 
 // routes
 app.use("/api/post", router);
+app.use("/", (req, res) => {
+  res.send("Welcome to the Instagram API!");
+});
 
 export default app;
