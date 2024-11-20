@@ -1,5 +1,5 @@
-import connectDB from "./database/connection.js";
-import app from "./app.js";
+import connectDB from "./src/database/connection.js";
+import app from "./src/app.js";
 
 const PORT = 3000;
 const db_url = `mongodb+srv://DhyeyPatel:DhyeyPatel%4018@atlascluster.etej1ka.mongodb.net/instagram`;
